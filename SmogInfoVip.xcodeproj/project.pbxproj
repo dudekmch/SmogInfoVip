@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34945A4BF093CDDF7C4FB4BF /* Pods_SmogInfoVip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F48F10E64354854BC4BB544 /* Pods_SmogInfoVip.framework */; };
+		F4111EC5202A27AF009F8BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EC4202A27AF009F8BA2 /* AppDelegate.swift */; };
+		F4111ECA202A27AF009F8BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4111EC8202A27AF009F8BA2 /* Main.storyboard */; };
+		F4111ECC202A27AF009F8BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4111ECB202A27AF009F8BA2 /* Assets.xcassets */; };
+		F4111ECF202A27AF009F8BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4111ECD202A27AF009F8BA2 /* LaunchScreen.storyboard */; };
+		F4111EDA202A27AF009F8BA2 /* SmogInfoVipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111ED9202A27AF009F8BA2 /* SmogInfoVipTests.swift */; };
+		F4111EEA202A2894009F8BA2 /* StationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE4202A2894009F8BA2 /* StationPresenter.swift */; };
+		F4111EEB202A2894009F8BA2 /* StationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE5202A2894009F8BA2 /* StationWorker.swift */; };
+		F4111EEC202A2894009F8BA2 /* StationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE6202A2894009F8BA2 /* StationRouter.swift */; };
+		F4111EED202A2894009F8BA2 /* StationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE7202A2894009F8BA2 /* StationModels.swift */; };
+		F4111EEE202A2894009F8BA2 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE8202A2894009F8BA2 /* StationViewController.swift */; };
+		F4111EF4202A2AFC009F8BA2 /* Station.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4111EF3202A2AFC009F8BA2 /* Station.storyboard */; };
+		F4111EF7202A3A6F009F8BA2 /* SmogAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EF6202A3A6F009F8BA2 /* SmogAPIService.swift */; };
+		F4385E39202A510D000611D5 /* StationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4111EE9202A2894009F8BA2 /* StationInteractor.swift */; };
+		F4385E3F202A5825000611D5 /* StationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E3E202A5825000611D5 /* StationDTO.swift */; };
+		F4385E4A202B7843000611D5 /* SensorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E44202B7843000611D5 /* SensorPresenter.swift */; };
+		F4385E4B202B7843000611D5 /* SensorWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E45202B7843000611D5 /* SensorWorker.swift */; };
+		F4385E4C202B7843000611D5 /* SensorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E46202B7843000611D5 /* SensorRouter.swift */; };
+		F4385E4D202B7843000611D5 /* SensorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E47202B7843000611D5 /* SensorModels.swift */; };
+		F4385E4E202B7843000611D5 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E48202B7843000611D5 /* SensorViewController.swift */; };
+		F4385E4F202B7843000611D5 /* SensorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E49202B7843000611D5 /* SensorInteractor.swift */; };
+		F4385E58202B796A000611D5 /* Sensor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4385E57202B796A000611D5 /* Sensor.storyboard */; };
+		F4385E5C202B7B93000611D5 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4385E5A202B7B93000611D5 /* StationTableViewCell.swift */; };
+		F4385E5D202B7B93000611D5 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4385E5B202B7B93000611D5 /* StationTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4111ED6202A27AF009F8BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4111EB9202A27AF009F8BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4111EC0202A27AF009F8BA2;
+			remoteInfo = SmogInfoVip;
+		};
+		F4385E2E202A4CCD000611D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4385E28202A4CCD000611D5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DF3CE3088F6C54732AD3CC0508AA89D7;
+			remoteInfo = Alamofire;
+		};
+		F4385E30202A4CCD000611D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4385E28202A4CCD000611D5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551C2D68CF9052D2F9EB6288254DD09;
+			remoteInfo = Charts;
+		};
+		F4385E32202A4CCD000611D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4385E28202A4CCD000611D5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FEF5DF1008BAE3F585BAABC67D97B0A;
+			remoteInfo = "Pods-SmogInfoVip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C77503752D3190D645ADD06 /* Pods_SmogInfoVipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmogInfoVipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA886E3BC4276E7F247164C /* Pods-SmogInfoVip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmogInfoVip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmogInfoVip/Pods-SmogInfoVip.release.xcconfig"; sourceTree = "<group>"; };
+		2A5BF216D8BC4C2090273F38 /* Pods_SmogInfoVip_SmogInfoVipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmogInfoVip_SmogInfoVipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F48F10E64354854BC4BB544 /* Pods_SmogInfoVip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmogInfoVip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECEA7311B2EDAF09AE01BB3 /* Pods-SmogInfoVipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmogInfoVipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmogInfoVipTests/Pods-SmogInfoVipTests.release.xcconfig"; sourceTree = "<group>"; };
+		74A54E410C9846CCAA7654C0 /* Pods-SmogInfoVipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmogInfoVipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmogInfoVipTests/Pods-SmogInfoVipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98C5D91F5C33BDCC28720B16 /* Pods-SmogInfoVip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmogInfoVip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmogInfoVip/Pods-SmogInfoVip.debug.xcconfig"; sourceTree = "<group>"; };
+		F4111EC1202A27AF009F8BA2 /* SmogInfoVip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmogInfoVip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4111EC4202A27AF009F8BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4111EC9202A27AF009F8BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4111ECB202A27AF009F8BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4111ECE202A27AF009F8BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4111ED0202A27AF009F8BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4111ED5202A27AF009F8BA2 /* SmogInfoVipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmogInfoVipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4111ED9202A27AF009F8BA2 /* SmogInfoVipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmogInfoVipTests.swift; sourceTree = "<group>"; };
+		F4111EDB202A27AF009F8BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4111EE4202A2894009F8BA2 /* StationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationPresenter.swift; sourceTree = "<group>"; };
+		F4111EE5202A2894009F8BA2 /* StationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationWorker.swift; sourceTree = "<group>"; };
+		F4111EE6202A2894009F8BA2 /* StationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRouter.swift; sourceTree = "<group>"; };
+		F4111EE7202A2894009F8BA2 /* StationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModels.swift; sourceTree = "<group>"; };
+		F4111EE8202A2894009F8BA2 /* StationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
+		F4111EE9202A2894009F8BA2 /* StationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInteractor.swift; sourceTree = "<group>"; };
+		F4111EF3202A2AFC009F8BA2 /* Station.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Station.storyboard; sourceTree = "<group>"; };
+		F4111EF6202A3A6F009F8BA2 /* SmogAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmogAPIService.swift; sourceTree = "<group>"; };
+		F4385E28202A4CCD000611D5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		F4385E3E202A5825000611D5 /* StationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDTO.swift; sourceTree = "<group>"; };
+		F4385E44202B7843000611D5 /* SensorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorPresenter.swift; sourceTree = "<group>"; };
+		F4385E45202B7843000611D5 /* SensorWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorWorker.swift; sourceTree = "<group>"; };
+		F4385E46202B7843000611D5 /* SensorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorRouter.swift; sourceTree = "<group>"; };
+		F4385E47202B7843000611D5 /* SensorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorModels.swift; sourceTree = "<group>"; };
+		F4385E48202B7843000611D5 /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
+		F4385E49202B7843000611D5 /* SensorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorInteractor.swift; sourceTree = "<group>"; };
+		F4385E55202B78AE000611D5 /* MeasurementPointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeasurementPointTableViewCell.xib; sourceTree = "<group>"; };
+		F4385E56202B78AE000611D5 /* MeasurementPointTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementPointTableViewCell.swift; sourceTree = "<group>"; };
+		F4385E57202B796A000611D5 /* Sensor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sensor.storyboard; sourceTree = "<group>"; };
+		F4385E5A202B7B93000611D5 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		F4385E5B202B7B93000611D5 /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4111EBE202A27AF009F8BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34945A4BF093CDDF7C4FB4BF /* Pods_SmogInfoVip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4111ED2202A27AF009F8BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF039576D976090469C8F628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F48F10E64354854BC4BB544 /* Pods_SmogInfoVip.framework */,
+				0C77503752D3190D645ADD06 /* Pods_SmogInfoVipTests.framework */,
+				2A5BF216D8BC4C2090273F38 /* Pods_SmogInfoVip_SmogInfoVipTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4111EB8202A27AF009F8BA2 = {
+			isa = PBXGroup;
+			children = (
+				F4385E28202A4CCD000611D5 /* Pods.xcodeproj */,
+				F4111EC3202A27AF009F8BA2 /* SmogInfoVip */,
+				F4111ED8202A27AF009F8BA2 /* SmogInfoVipTests */,
+				F4111EC2202A27AF009F8BA2 /* Products */,
+				FCA6057735F30220BE872980 /* Pods */,
+				EF039576D976090469C8F628 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4111EC2202A27AF009F8BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4111EC1202A27AF009F8BA2 /* SmogInfoVip.app */,
+				F4111ED5202A27AF009F8BA2 /* SmogInfoVipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4111EC3202A27AF009F8BA2 /* SmogInfoVip */ = {
+			isa = PBXGroup;
+			children = (
+				F4111EF5202A3A3A009F8BA2 /* Service */,
+				F4111EF2202A28D2009F8BA2 /* Common */,
+				F4111EF0202A289C009F8BA2 /* Scenes */,
+				F4111ED0202A27AF009F8BA2 /* Info.plist */,
+			);
+			path = SmogInfoVip;
+			sourceTree = "<group>";
+		};
+		F4111ED8202A27AF009F8BA2 /* SmogInfoVipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4111ED9202A27AF009F8BA2 /* SmogInfoVipTests.swift */,
+				F4111EDB202A27AF009F8BA2 /* Info.plist */,
+			);
+			path = SmogInfoVipTests;
+			sourceTree = "<group>";
+		};
+		F4111EF0202A289C009F8BA2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E43202B782E000611D5 /* Sensor */,
+				F4111EF1202A28BE009F8BA2 /* Station */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F4111EF1202A28BE009F8BA2 /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E59202B7B61000611D5 /* StationCell */,
+				F4111EE4202A2894009F8BA2 /* StationPresenter.swift */,
+				F4111EE5202A2894009F8BA2 /* StationWorker.swift */,
+				F4111EE6202A2894009F8BA2 /* StationRouter.swift */,
+				F4111EE7202A2894009F8BA2 /* StationModels.swift */,
+				F4111EE8202A2894009F8BA2 /* StationViewController.swift */,
+				F4111EE9202A2894009F8BA2 /* StationInteractor.swift */,
+				F4111EF3202A2AFC009F8BA2 /* Station.storyboard */,
+			);
+			path = Station;
+			sourceTree = "<group>";
+		};
+		F4111EF2202A28D2009F8BA2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E3D202A5810000611D5 /* Model */,
+				F4111EC4202A27AF009F8BA2 /* AppDelegate.swift */,
+				F4111ECB202A27AF009F8BA2 /* Assets.xcassets */,
+				F4111EC8202A27AF009F8BA2 /* Main.storyboard */,
+				F4111ECD202A27AF009F8BA2 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4111EF5202A3A3A009F8BA2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F4111EF6202A3A6F009F8BA2 /* SmogAPIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F4385E29202A4CCD000611D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E2F202A4CCD000611D5 /* Alamofire.framework */,
+				F4385E31202A4CCD000611D5 /* Charts.framework */,
+				F4385E33202A4CCD000611D5 /* Pods_SmogInfoVip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4385E3D202A5810000611D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E3E202A5825000611D5 /* StationDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4385E43202B782E000611D5 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E54202B78A3000611D5 /* SensorCell */,
+				F4385E44202B7843000611D5 /* SensorPresenter.swift */,
+				F4385E45202B7843000611D5 /* SensorWorker.swift */,
+				F4385E46202B7843000611D5 /* SensorRouter.swift */,
+				F4385E47202B7843000611D5 /* SensorModels.swift */,
+				F4385E48202B7843000611D5 /* SensorViewController.swift */,
+				F4385E49202B7843000611D5 /* SensorInteractor.swift */,
+				F4385E57202B796A000611D5 /* Sensor.storyboard */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		F4385E54202B78A3000611D5 /* SensorCell */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E56202B78AE000611D5 /* MeasurementPointTableViewCell.swift */,
+				F4385E55202B78AE000611D5 /* MeasurementPointTableViewCell.xib */,
+			);
+			path = SensorCell;
+			sourceTree = "<group>";
+		};
+		F4385E59202B7B61000611D5 /* StationCell */ = {
+			isa = PBXGroup;
+			children = (
+				F4385E5A202B7B93000611D5 /* StationTableViewCell.swift */,
+				F4385E5B202B7B93000611D5 /* StationTableViewCell.xib */,
+			);
+			path = StationCell;
+			sourceTree = "<group>";
+		};
+		FCA6057735F30220BE872980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C5D91F5C33BDCC28720B16 /* Pods-SmogInfoVip.debug.xcconfig */,
+				1BA886E3BC4276E7F247164C /* Pods-SmogInfoVip.release.xcconfig */,
+				74A54E410C9846CCAA7654C0 /* Pods-SmogInfoVipTests.debug.xcconfig */,
+				6ECEA7311B2EDAF09AE01BB3 /* Pods-SmogInfoVipTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4111EC0202A27AF009F8BA2 /* SmogInfoVip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4111EDE202A27AF009F8BA2 /* Build configuration list for PBXNativeTarget "SmogInfoVip" */;
+			buildPhases = (
+				04F38517BB1D1C694CC1E4DF /* [CP] Check Pods Manifest.lock */,
+				F4111EBD202A27AF009F8BA2 /* Sources */,
+				F4111EBE202A27AF009F8BA2 /* Frameworks */,
+				F4111EBF202A27AF009F8BA2 /* Resources */,
+				E40EE1B45531C4B1B8B35E19 /* [CP] Embed Pods Frameworks */,
+				C8A2FECF7E128767029C83A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmogInfoVip;
+			productName = SmogInfoVip;
+			productReference = F4111EC1202A27AF009F8BA2 /* SmogInfoVip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4111ED4202A27AF009F8BA2 /* SmogInfoVipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4111EE1202A27AF009F8BA2 /* Build configuration list for PBXNativeTarget "SmogInfoVipTests" */;
+			buildPhases = (
+				F4111ED1202A27AF009F8BA2 /* Sources */,
+				F4111ED2202A27AF009F8BA2 /* Frameworks */,
+				F4111ED3202A27AF009F8BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4111ED7202A27AF009F8BA2 /* PBXTargetDependency */,
+			);
+			name = SmogInfoVipTests;
+			productName = SmogInfoVipTests;
+			productReference = F4111ED5202A27AF009F8BA2 /* SmogInfoVipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4111EB9202A27AF009F8BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cookieIT;
+				TargetAttributes = {
+					F4111EC0202A27AF009F8BA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F4111ED4202A27AF009F8BA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4111EC0202A27AF009F8BA2;
+					};
+				};
+			};
+			buildConfigurationList = F4111EBC202A27AF009F8BA2 /* Build configuration list for PBXProject "SmogInfoVip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4111EB8202A27AF009F8BA2;
+			productRefGroup = F4111EC2202A27AF009F8BA2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F4385E29202A4CCD000611D5 /* Products */;
+					ProjectRef = F4385E28202A4CCD000611D5 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F4111EC0202A27AF009F8BA2 /* SmogInfoVip */,
+				F4111ED4202A27AF009F8BA2 /* SmogInfoVipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F4385E2F202A4CCD000611D5 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F4385E2E202A4CCD000611D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F4385E31202A4CCD000611D5 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = F4385E30202A4CCD000611D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F4385E33202A4CCD000611D5 /* Pods_SmogInfoVip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_SmogInfoVip.framework;
+			remoteRef = F4385E32202A4CCD000611D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4111EBF202A27AF009F8BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4111ECF202A27AF009F8BA2 /* LaunchScreen.storyboard in Resources */,
+				F4111ECC202A27AF009F8BA2 /* Assets.xcassets in Resources */,
+				F4385E58202B796A000611D5 /* Sensor.storyboard in Resources */,
+				F4111ECA202A27AF009F8BA2 /* Main.storyboard in Resources */,
+				F4385E5D202B7B93000611D5 /* StationTableViewCell.xib in Resources */,
+				F4111EF4202A2AFC009F8BA2 /* Station.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4111ED3202A27AF009F8BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04F38517BB1D1C694CC1E4DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmogInfoVip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A2FECF7E128767029C83A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmogInfoVip/Pods-SmogInfoVip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40EE1B45531C4B1B8B35E19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmogInfoVip/Pods-SmogInfoVip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmogInfoVip/Pods-SmogInfoVip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4111EBD202A27AF009F8BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4385E39202A510D000611D5 /* StationInteractor.swift in Sources */,
+				F4385E4F202B7843000611D5 /* SensorInteractor.swift in Sources */,
+				F4111EF7202A3A6F009F8BA2 /* SmogAPIService.swift in Sources */,
+				F4385E4A202B7843000611D5 /* SensorPresenter.swift in Sources */,
+				F4111EC5202A27AF009F8BA2 /* AppDelegate.swift in Sources */,
+				F4385E4C202B7843000611D5 /* SensorRouter.swift in Sources */,
+				F4385E4B202B7843000611D5 /* SensorWorker.swift in Sources */,
+				F4385E4E202B7843000611D5 /* SensorViewController.swift in Sources */,
+				F4111EED202A2894009F8BA2 /* StationModels.swift in Sources */,
+				F4111EEC202A2894009F8BA2 /* StationRouter.swift in Sources */,
+				F4385E5C202B7B93000611D5 /* StationTableViewCell.swift in Sources */,
+				F4111EEE202A2894009F8BA2 /* StationViewController.swift in Sources */,
+				F4111EEB202A2894009F8BA2 /* StationWorker.swift in Sources */,
+				F4385E3F202A5825000611D5 /* StationDTO.swift in Sources */,
+				F4111EEA202A2894009F8BA2 /* StationPresenter.swift in Sources */,
+				F4385E4D202B7843000611D5 /* SensorModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4111ED1202A27AF009F8BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4111EDA202A27AF009F8BA2 /* SmogInfoVipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4111ED7202A27AF009F8BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4111EC0202A27AF009F8BA2 /* SmogInfoVip */;
+			targetProxy = F4111ED6202A27AF009F8BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4111EC8202A27AF009F8BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4111EC9202A27AF009F8BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4111ECD202A27AF009F8BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4111ECE202A27AF009F8BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4111EDC202A27AF009F8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4111EDD202A27AF009F8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4111EDF202A27AF009F8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C5D91F5C33BDCC28720B16 /* Pods-SmogInfoVip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WX8N7V925;
+				INFOPLIST_FILE = SmogInfoVip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.cookieIT.smogInfo.SmogInfoVip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4111EE0202A27AF009F8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA886E3BC4276E7F247164C /* Pods-SmogInfoVip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WX8N7V925;
+				INFOPLIST_FILE = SmogInfoVip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.cookieIT.smogInfo.SmogInfoVip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4111EE2202A27AF009F8BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WX8N7V925;
+				INFOPLIST_FILE = SmogInfoVipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.cookieIT.smogInfo.SmogInfoVipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmogInfoVip.app/SmogInfoVip";
+			};
+			name = Debug;
+		};
+		F4111EE3202A27AF009F8BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WX8N7V925;
+				INFOPLIST_FILE = SmogInfoVipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.cookieIT.smogInfo.SmogInfoVipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmogInfoVip.app/SmogInfoVip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4111EBC202A27AF009F8BA2 /* Build configuration list for PBXProject "SmogInfoVip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4111EDC202A27AF009F8BA2 /* Debug */,
+				F4111EDD202A27AF009F8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4111EDE202A27AF009F8BA2 /* Build configuration list for PBXNativeTarget "SmogInfoVip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4111EDF202A27AF009F8BA2 /* Debug */,
+				F4111EE0202A27AF009F8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4111EE1202A27AF009F8BA2 /* Build configuration list for PBXNativeTarget "SmogInfoVipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4111EE2202A27AF009F8BA2 /* Debug */,
+				F4111EE3202A27AF009F8BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4111EB9202A27AF009F8BA2 /* Project object */;
+}

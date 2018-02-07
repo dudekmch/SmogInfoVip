@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TDL-uc-fb7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bw6-So-M60">
+            <objects>
+                <navigationController id="TDL-uc-fb7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l6j-tD-30m">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BgS-jD-AXa" kind="relationship" relationship="rootViewController" id="JCS-F7-Mjy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DE1-un-wDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-972" y="131"/>
+        </scene>
+        <!--Sensor View Controller-->
+        <scene sceneID="XXe-3N-jQ0">
+            <objects>
+                <viewController storyboardIdentifier="SensorViewController" id="BgS-jD-AXa" customClass="SensorViewController" customModule="SmogInfoVip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="blC-q7-Qo0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EZW-FH-Wph">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EZW-FH-Wph" firstAttribute="top" secondItem="sWF-2X-8yW" secondAttribute="top" id="3LL-TL-uLq"/>
+                            <constraint firstItem="sWF-2X-8yW" firstAttribute="trailing" secondItem="EZW-FH-Wph" secondAttribute="trailing" id="Huv-iU-0dg"/>
+                            <constraint firstItem="EZW-FH-Wph" firstAttribute="leading" secondItem="sWF-2X-8yW" secondAttribute="leading" id="ZKT-Ok-1Sw"/>
+                            <constraint firstItem="sWF-2X-8yW" firstAttribute="bottom" secondItem="EZW-FH-Wph" secondAttribute="bottom" id="wQ7-df-2IR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sWF-2X-8yW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FZr-gQ-sfh"/>
+                    <connections>
+                        <outlet property="tableView" destination="EZW-FH-Wph" id="n3y-SQ-oOE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PNJ-O2-d0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="131"/>
+        </scene>
+    </scenes>
+</document>
